@@ -36,7 +36,6 @@
   <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="static/vendor/aos/aos.css" rel="stylesheet">
   <style>
-    
     .section-title {
       color: rgb(199, 71, 71);
       font-weight: bold;
@@ -213,7 +212,6 @@
       .tm-gallery-item figcaption {
         text-align: center;
       }
-  
   </style>
 
   <!--
@@ -237,6 +235,7 @@
   <a href="#env">Culture</a>
   <a href="#news">Updates</a>
   <a href="#contact">contact</a>
+  <a href="#evolution">Evolution of logo</a>
 </div>
 
 <div class="container">
@@ -265,37 +264,37 @@
     <div class="container">
 
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Introduction</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Introduction</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
     
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.attribute1 }}</h5>
-            <p style="text-align: center;">{{ goog.description1}}</p>
+            <p style="text-align: adjust;">{{ goog.description1}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.attribute2 }}</h5>
-            <p style="text-align: center;">{{ goog.description2}}</p>
+            <p style="text-align: adjust;">{{ goog.description2}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.attribute3 }}</h5>
-            <p style="text-align: center;">{{ goog.description3}}</p>
+            <p style="text-align: adjust;">{{ goog.description3}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.attribute4 }}</h5>
-            <p style="text-align: center;">{{ goog.description4}}</p>
+            <p style="text-align: adjust;">{{ goog.description4}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.attribute5 }}</h5>
-            <p style="text-align: center;">{{ goog.description5}}</p>
+            <p style="text-align: adjust;">{{ goog.description5}}</p>
           </div>
           {% endfor %}
         </div>
@@ -308,7 +307,7 @@
   <section id="Mission" class="tm-section-pad-top">
     <div class="container">
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Mission and Vision</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Mission and Vision</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
         <div>
           {% for goog in data %}
@@ -328,7 +327,7 @@
   <section id="location" class="tm-section-pad-top">
     <div class="container">
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Location of Headquarters</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Location of Headquarters</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
         <div>
           <div class="content-container">
@@ -353,7 +352,7 @@
   <section id="global" class="tm-section-pad-top">
     <div class="container">
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179,73,73)"><b>Global presence</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179,73,73)"><b>Global presence</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
           <h4>Google has offices in many countries around the world. Here are some key locations:
           </h4>
@@ -404,7 +403,7 @@
     
   </section>
   <section id="pands" class="tm-section-pad-top">
-    <div>
+    <div class="container">
         <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;"><b>Products and services:</b></h2>
         <div style="line-height: 1.6; color: #333; margin-bottom: 20px;">
           Google offers a diverse range of products and services spanning various domains including search, advertising, software, hardware, and cloud computing. Here’s an overview of Google’s major products and services:
@@ -417,25 +416,25 @@
         {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product1 }}</h5>
-            <p style="text-align: center;">{{ goog.descriptions1}}</p>
+            <p style="text-align: adjust;">{{ goog.descriptions1}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product2 }}</h5>
-            <p style="text-align: center;">{{ goog.descriptions2}}</p>
+            <p style="text-align: adjust;">{{ goog.descriptions2}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product3 }}</h5>
-            <p style="text-align: center;">{{ goog.descriptions3}}</p>
+            <p style="text-align: adjust;">{{ goog.descriptions3}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product4 }}</h5>
-            <p style="text-align: center;">{{ goog.descriptions4}}</p>
+            <p style="text-align: adjust;">{{ goog.descriptions4}}</p>
           </div>
           {% endfor %}
 
@@ -444,13 +443,13 @@
         {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product5 }}</h5>
-            <p style="text-align: center;">{{ goog.descriptions5}}</p>
+            <p style="text-align: adjust;">{{ goog.descriptions5}}</p>
           </div>
           {% endfor %}
           {% for goog in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product6 }}</h5>
-            <p style="text-align: center;">{{ goog.descriptions6}}</p>
+            <p style="text-align: adjust;">{{ goog.descriptions6}}</p>
           </div>
           {% endfor %}
           <h5 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73)">Consumer Services:
@@ -459,31 +458,31 @@
           {% for goog in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product7}}</h5>
-              <p style="text-align: center;">{{ goog.descriptions7}}</p>
+              <p style="text-align: adjust;">{{ goog.descriptions7}}</p>
             </div>
             {% endfor %}
             {% for goog in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product8}}</h5>
-              <p style="text-align: center;">{{ goog.descriptions8}}</p>
+              <p style="text-align: adjust;">{{ goog.descriptions8}}</p>
             </div>
             {% endfor %}
             {% for goog in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product9}}</h5>
-              <p style="text-align: center;">{{ goog.descriptions9}}</p>
+              <p style="text-align: adjust;">{{ goog.descriptions9}}</p>
             </div>
             {% endfor %}
             {% for goog in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product10}}</h5>
-              <p style="text-align: center;">{{ goog.descriptions10}}</p>
+              <p style="text-align: adjust;">{{ goog.descriptions10}}</p>
             </div>
             {% endfor %}
             {% for goog in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product11}}</h5>
-              <p style="text-align: center;">{{ goog.descriptions11}}</p>
+              <p style="text-align: adjust;">{{ goog.descriptions11}}</p>
             </div>
             {% endfor %}
             <h5 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73)">Mobile and Web Applications::
@@ -492,37 +491,37 @@
             {% for goog in data %}
               <div class="content-container" style="margin-bottom: 20px;">
                 <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product12}}</h5>
-                <p style="text-align: center;">{{ goog.descriptions12}}</p>
+                <p style="text-align: adjust;">{{ goog.descriptions12}}</p>
               </div>
               {% endfor %}
               {% for goog in data %}
               <div class="content-container" style="margin-bottom: 20px;">
                 <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product13}}</h5>
-                <p style="text-align: center;">{{ goog.descriptions13}}</p>
+                <p style="text-align: adjust;">{{ goog.descriptions13}}</p>
               </div>
               {% endfor %}
               {% for goog in data %}
               <div class="content-container" style="margin-bottom: 20px;">
                 <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product14}}</h5>
-                <p style="text-align: center;">{{ goog.descriptions14}}</p>
+                <p style="text-align: adjust;">{{ goog.descriptions14}}</p>
               </div>
               {% endfor %}
               {% for goog in data %}
               <div class="content-container" style="margin-bottom: 20px;">
                 <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product15}}</h5>
-                <p style="text-align: center;">{{ goog.descriptions15}}</p>
+                <p style="text-align: adjust;">{{ goog.descriptions15}}</p>
               </div>
               {% endfor %}
               {% for goog in data %}
               <div class="content-container" style="margin-bottom: 20px;">
                 <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product16}}</h5>
-                <p style="text-align: center;">{{ goog.descriptions16}}</p>
+                <p style="text-align: adjust;">{{ goog.descriptions16}}</p>
               </div>
               {% endfor %}
               {% for goog in data %}
               <div class="content-container" style="margin-bottom: 20px;">
                 <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product17}}</h5>
-                <p style="text-align: center;">{{ goog.descriptions17}}</p>
+                <p style="text-align: adjust;">{{ goog.descriptions17}}</p>
               </div>
               {% endfor %}
               <h5 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73)">Hardware Products:
@@ -532,43 +531,43 @@
               {% for goog in data %}
                 <div class="content-container" style="margin-bottom: 20px;">
                   <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product18}}</h5>
-                  <p style="text-align: center;">{{ goog.descriptions18}}</p>
+                  <p style="text-align: adjust;">{{ goog.descriptions18}}</p>
                 </div>
                 {% endfor %}
                 {% for goog in data %}
                 <div class="content-container" style="margin-bottom: 20px;">
                   <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product19}}</h5>
-                  <p style="text-align: center;">{{ goog.descriptions19}}</p>
+                  <p style="text-align: adjust;">{{ goog.descriptions19}}</p>
                 </div>
                 {% endfor %}
                 {% for goog in data %}
                 <div class="content-container" style="margin-bottom: 20px;">
                   <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product20}}</h5>
-                  <p style="text-align: center;">{{ goog.descriptions20}}</p>
+                  <p style="text-align: adjust;">{{ goog.descriptions20}}</p>
                 </div>
                 {% endfor %}
                 {% for goog in data %}
                 <div class="content-container" style="margin-bottom: 20px;">
                   <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product21}}</h5>
-                  <p style="text-align: center;">{{ goog.descriptions21}}</p>
+                  <p style="text-align: adjust;">{{ goog.descriptions21}}</p>
                 </div>
                 {% endfor %}
                 {% for goog in data %}
                 <div class="content-container" style="margin-bottom: 20px;">
                   <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product22}}</h5>
-                  <p style="text-align: center;">{{ goog.descriptions22}}</p>
+                  <p style="text-align: adjust;">{{ goog.descriptions22}}</p>
                 </div>
                 {% endfor %}
                 {% for goog in data %}
                 <div class="content-container" style="margin-bottom: 20px;">
                   <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product23}}</h5>
-                  <p style="text-align: center;">{{ goog.descriptions23}}</p>
+                  <p style="text-align: adjust;">{{ goog.descriptions23}}</p>
                 </div>
                 {% endfor %}
                 {% for goog in data %}
                 <div class="content-container" style="margin-bottom: 20px;">
                   <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product24}}</h5>
-                  <p style="text-align: center;">{{ goog.descriptions24}}</p>
+                  <p style="text-align: adjust;">{{ goog.descriptions24}}</p>
                 </div>
                 {% endfor %}
                 <h5 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73)">Enterprise Solutions:
@@ -579,19 +578,19 @@
                 {% for goog in data %}
                   <div class="content-container" style="margin-bottom: 20px;">
                     <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product25}}</h5>
-                    <p style="text-align: center;">{{ goog.descriptions25}}</p>
+                    <p style="text-align: adjust;">{{ goog.descriptions25}}</p>
                   </div>
                   {% endfor %}
                   {% for goog in data %}
                   <div class="content-container" style="margin-bottom: 20px;">
                     <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product26}}</h5>
-                    <p style="text-align: center;">{{ goog.descriptions26}}</p>
+                    <p style="text-align: adjust;">{{ goog.descriptions26}}</p>
                   </div>
                   {% endfor %}
                   {% for goog in data %}
                   <div class="content-container" style="margin-bottom: 20px;">
                     <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product27}}</h5>
-                    <p style="text-align: center;">{{ goog.descriptions27}}</p>
+                    <p style="text-align: adjust;">{{ goog.descriptions27}}</p>
                   </div>
                   {% endfor %}
                   <h5 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73)">Other Services:
@@ -603,25 +602,25 @@
                   {% for goog in data %}
                     <div class="content-container" style="margin-bottom: 20px;">
                       <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product28}}</h5>
-                      <p style="text-align: center;">{{ goog.descriptions28}}</p>
+                      <p style="text-align: adjust;">{{ goog.descriptions28}}</p>
                     </div>
                     {% endfor %}
                     {% for goog in data %}
                     <div class="content-container" style="margin-bottom: 20px;">
                       <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product29}}</h5>
-                      <p style="text-align: center;">{{ goog.descriptions29}}</p>
+                      <p style="text-align: adjust;">{{ goog.descriptions29}}</p>
                     </div>
                     {% endfor %}
                     {% for goog in data %}
                     <div class="content-container" style="margin-bottom: 20px;">
                       <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product30}}</h5>
-                      <p style="text-align: center;">{{ goog.descriptions30}}</p>
+                      <p style="text-align: adjust;">{{ goog.descriptions30}}</p>
                     </div>
                     {% endfor %}
                     {% for goog in data %}
                     <div class="content-container" style="margin-bottom: 20px;">
                       <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product31}}</h5>
-                      <p style="text-align: center;">{{ goog.descriptions31}}</p>
+                      <p style="text-align: adjust;">{{ goog.descriptions31}}</p>
                     </div>
                     {% endfor %}
             </div>
@@ -633,7 +632,7 @@
   <section id="innovations" class="tm-section-pad-top">
       <div class="container">
     
-        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: center;"><b>Innovations:</b></h2>
+        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: adjust;"><b>Innovations:</b></h2>
         <h4>Google has been at the forefront of technological innovation across various domains. Here are some key innovations from Google:
         </h4>
         <h4>Search and Information Retrieval:
@@ -641,7 +640,7 @@
         {% for goog in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product32 }}</h5>
-          <p style="text-align: center;">{{ goog.descriptions32}}</p>
+          <p style="text-align: adjust;">{{ goog.descriptions32}}</p>
         </div>
         {% endfor %}
     
@@ -664,7 +663,7 @@
         {% for goog in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product35 }}</h5>
-          <p style="text-align: center;">{{ goog.descriptions32}}</p>
+          <p style="text-align: adjust;">{{ goog.descriptions32}}</p>
         </div>
         {% endfor %}
     
@@ -688,7 +687,7 @@
         {% for goog in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product38 }}</h5>
-          <p style="text-align: center;">{{ goog.descriptions38}}</p>
+          <p style="text-align: adjust;">{{ goog.descriptions38}}</p>
         </div>
         {% endfor %}
     
@@ -711,7 +710,7 @@
         {% for goog in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product41 }}</h5>
-          <p style="text-align: center;">{{ goog.descriptions41}}</p>
+          <p style="text-align: adjust;">{{ goog.descriptions41}}</p>
         </div>
         {% endfor %}
     
@@ -735,7 +734,7 @@
         {% for goog in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product44 }}</h5>
-          <p style="text-align: center;">{{ goog.descriptions44}}</p>
+          <p style="text-align: adjust;">{{ goog.descriptions44}}</p>
         </div>
         {% endfor %}
     
@@ -759,7 +758,7 @@
         {% for goog in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product47 }}</h5>
-          <p style="text-align: center;">{{ goog.descriptions47}}</p>
+          <p style="text-align: adjust;">{{ goog.descriptions47}}</p>
         </div>
         {% endfor %}
     
@@ -776,7 +775,7 @@
         {% for goog in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ goog.product49}}</h5>
-          <p style="text-align: center;">{{ goog.descriptions49}}</p>
+          <p style="text-align: adjust;">{{ goog.descriptions49}}</p>
         </div>
         {% endfor %}
     
@@ -1000,8 +999,8 @@
     
       </div>
     </section>
-    <section id="contact" class="text-center">
-      <h1>Google Social Media Links</h1>
+    <section id="contact" class="text-adjust">
+      <center><h1>Google Social Media Links</h1></center>
       <ul class="social-media-links">
         <li><a href="https://www.instagram.com/google/" target="_blank"><i class="bi bi-instagram"></i></a></li>
         <li><a href="https://www.facebook.com/Google" target="_blank"><i class="bi bi-facebook"></i></a></li>
@@ -1011,10 +1010,10 @@
       </ul>
     </section>
   
-    <section id="work" class="tm-section-pad-top">
+    <section id="evolution" class="tm-section-pad-top">
       <div class="container tm-container-gallery">
         <div class="row">
-          <div class="text-center col-12">
+          <div class="text-adjust col-12">
             <h2 style="color:rgb(179, 73, 73)">Evolution of Google Logo</h2>
             <p style="color: rgb(26, 25, 25); font-size: 18px; font-family: 'Trebuchet MS', sans-serif;">
               "Over the course of 37 years, Microsoft has had five corporate logos. They changed quickly in the early years, but then the company held steady from 1987 until -- today. Ahead of a big wave of major product rollouts this fall, including Windows 8, Windows Phone 8, the Surface tablet, and the next version of Office, Microsoft has updated its logo once again, after 25 years of holding steady."
@@ -1111,7 +1110,7 @@
     function setParallaxPosition($doc, multiplier, $object) {
       var offset = getOffSet();
       var from_top = $doc.scrollTop(),
-        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+        bg_css = 'adjust ' + (multiplier * from_top - offset) + 'px';
       $object.css({ "background-position": bg_css });
     }
 
@@ -1142,7 +1141,7 @@
           pos = $(window).scrollTop(),
           yPos = Math.round((multiplier * (firstTop - pos)) - 186);
 
-        var bg_css = 'center ' + yPos + 'px';
+        var bg_css = 'adjust ' + yPos + 'px';
 
         $object.css({ "background-position": bg_css });
       });

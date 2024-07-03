@@ -213,7 +213,6 @@
       .tm-gallery-item figcaption {
         text-align: center;
       }
-  
   </style>
 
   <!--
@@ -237,6 +236,8 @@
   <a href="#env">Culture</a>
   <a href="#news">Updates</a>
   <a href="#contact">contact</a>
+  <a href="#evolution">Evolution of Logo</a>
+
 </div>
 
 <div class="container">
@@ -250,7 +251,8 @@
     <p>LOGO</p>
     <img style="height:200px;width:500px;" src="static/img/blog/walmart.png" class="logo" />
     <p>The Walmart logo is globally recognized and signifies Walmart's leadership in retail and its commitment to serving customers worldwide. It embodies Walmart's core values of affordability, accessibility, and community engagement.</p>
-    <li class="color-list">
+   
+    <ul class="color-list">
       <li>Blue Color: The blue color in the Walmart logo represents trust, reliability, and professionalism. It reinforces Walmart's commitment to providing quality products and services.</li>
 
        <li> Yellow Spark: The yellow spark symbolizes innovation, inspiration, and customer satisfaction. It reflects Walmart's dedication to offering value and creating a positive shopping experience.</li>
@@ -270,31 +272,31 @@
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section1 }}</h5>
-            <p style="text-align: center;">{{ walmart.details1}}</p>
+            <p style="text-align: left;">{{ walmart.details1}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section2 }}</h5>
-            <p style="text-align: center;">{{ walmart.details2}}</p>
+            <p style="text-align: left;">{{ walmart.details2}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section3 }}</h5>
-            <p style="text-align: center;">{{ walmart.details3}}</p>
+            <p style="text-align: left;">{{ walmart.details3}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section4 }}</h5>
-            <p style="text-align: center;">{{ walmart.details4}}</p>
+            <p style="text-align: left;">{{ walmart.details4}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section5 }}</h5>
-            <p style="text-align: center;">{{ walmart.details5}}</p>
+            <p style="text-align: left;">{{ walmart.details5}}</p>
           </div>
           {% endfor %}
         </div>
@@ -361,7 +363,7 @@
             {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region1 }}</h5>
-            <p style="text-align: center;">{{ walmart.locations1}}</p>
+            <p style="text-align: left;">{{ walmart.locations1}}</p>
           </div>
           {% endfor %}
           </div>
@@ -369,7 +371,7 @@
             {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region2 }}</h5>
-            <p style="text-align: center;">{{ walmart.locations2}}</p>
+            <p style="text-align:  left;">{{ walmart.locations2}}</p>
           </div>
           {% endfor %}
           </div>
@@ -377,7 +379,7 @@
             {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region3 }}</h5>
-            <p style="text-align: center;">{{ walmart.locations3}}</p>
+            <p style="text-align:  left;">{{ walmart.locations3}}</p>
           </div>
           {% endfor %}
           </div>
@@ -385,7 +387,7 @@
             {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region4 }}</h5>
-            <p style="text-align: center;">{{ walmart.locations4}}</p>
+            <p style="text-align: left;">{{ walmart.locations4}}</p>
           </div>
           {% endfor %}
           </div>
@@ -393,7 +395,7 @@
             {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region5 }}</h5>
-            <p style="text-align: center;">{{ walmart.locations5}}</p>
+            <p style="text-align:  left;">{{ walmart.locations5}}</p>
           </div>
           {% endfor %}
           </div>
@@ -403,9 +405,10 @@
     </div>
     
   </section>
+  <center>
   <section id="pands" class="tm-section-pad-top">
-    <div>
-        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;"><b>Products and services:</b></h2>
+    <div class="container">
+        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73);"><b>Products and services:</b></h2>
         <div style="line-height: 1.6; color: #333; margin-bottom: 20px;">
           Walmart's extensive product range and services cater to a wide range of consumer needs, combining physical retail with e-commerce and technological innovations to enhance customer experiences globally.
 
@@ -413,55 +416,55 @@
             {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category11 }}</h5>
-            <p style="text-align: center;">{{ walmart.description11}}</p>
+            <p style="text-align:  left;">{{ walmart.description11}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category12 }}</h5>
-            <p style="text-align: center;">{{ walmart.description12}}</p>
+            <p style="text-align:  left;">{{ walmart.description12}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category13 }}</h5>
-            <p style="text-align: center;">{{ walmart.description13}}</p>
+            <p style="text-align:  left;">{{ walmart.description13}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category14 }}</h5>
-            <p style="text-align: center;">{{ walmart.description14}}</p>
+            <p style="text-align:  left;">{{ walmart.description14}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category15 }}</h5>
-            <p style="text-align: center;">{{ walmart.description15}}</p>
+            <p style="text-align:  left;">{{ walmart.description15}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category16 }}</h5>
-            <p style="text-align: center;">{{ walmart.description16}}</p>
+            <p style="text-align:  left;">{{ walmart.description16}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category17}}</h5>
-            <p style="text-align: center;">{{ walmart.description17}}</p>
+            <p style="text-align:  left;">{{ walmart.description17}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category18 }}</h5>
-            <p style="text-align: center;">{{ walmart.description18}}</p>
+            <p style="text-align:  left;">{{ walmart.description18}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category19 }}</h5>
-            <p style="text-align: center;">{{ walmart.description19}}</p>
+            <p style="text-align:  left;">{{ walmart.description19}}</p>
           </div>
           {% endfor %}
           </div>
@@ -472,6 +475,7 @@
         </div>
     </div>
 </section>
+</center>
 
 
   <section id="innovations" class="tm-section-pad-top">
@@ -482,43 +486,43 @@
           {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category21 }}</h5>
-          <p style="text-align: center;">{{ walmart.description21}}</p>
+          <p style="text-align:  left;">{{ walmart.description21}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category22 }}</h5>
-          <p style="text-align: center;">{{ walmart.description22}}</p>
+          <p style="text-align: left;">{{ walmart.description22}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category23 }}</h5>
-          <p style="text-align: center;">{{ walmart.description23}}</p>
+          <p style="text-align:  left;">{{ walmart.description23}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category24 }}</h5>
-          <p style="text-align: center;">{{ walmart.description24}}</p>
+          <p style="text-align: left;">{{ walmart.description24}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category25 }}</h5>
-          <p style="text-align: center;">{{ walmart.description25}}</p>
+          <p style="text-align: left;">{{ walmart.description25}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category26 }}</h5>
-          <p style="text-align: center;">{{ walmart.description26}}</p>
+          <p style="text-align:  left;">{{ walmart.description26}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category27}}</h5>
-          <p style="text-align: center;">{{ walmart.description27}}</p>
+          <p style="text-align: left;">{{ walmart.description27}}</p>
         </div>
         {% endfor %}
         
@@ -540,25 +544,25 @@
           {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category28 }}</h5>
-          <p style="text-align: center;">{{ walmart.description28}}</p>
+          <p style="text-align:  left;">{{ walmart.description28}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category29}}</h5>
-          <p style="text-align: center;">{{ walmart.description29}}</p>
+          <p style="text-align: left;">{{ walmart.description29}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category30}}</h5>
-          <p style="text-align: center;">{{ walmart.description30}}</p>
+          <p style="text-align:  left;">{{ walmart.description30}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category31 }}</h5>
-          <p style="text-align: center;">{{ walmart.description31}}</p>
+          <p style="text-align: left;">{{ walmart.description31}}</p>
         </div>
         {% endfor %}
         </div>
@@ -568,25 +572,25 @@
           {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category41 }}</h5>
-          <p style="text-align: center;">{{ walmart.description41}}</p>
+          <p style="text-align:  left;">{{ walmart.description41}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category42}}</h5>
-          <p style="text-align: center;">{{ walmart.description42}}</p>
+          <p style="text-align:  left;">{{ walmart.description42}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category43}}</h5>
-          <p style="text-align: center;">{{ walmart.description43}}</p>
+          <p style="text-align:  left;">{{ walmart.description43}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category44 }}</h5>
-          <p style="text-align: center;">{{ walmart.description44}}</p>
+          <p style="text-align:  left;">{{ walmart.description44}}</p>
         </div>
         {% endfor %}
         </div>
@@ -596,31 +600,31 @@
           {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category61 }}</h5>
-          <p style="text-align: center;">{{ walmart.description61}}</p>
+          <p style="text-align:  left;">{{ walmart.description61}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category62}}</h5>
-          <p style="text-align: center;">{{ walmart.description62}}</p>
+          <p style="text-align:  left;">{{ walmart.description62}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category63}}</h5>
-          <p style="text-align: center;">{{ walmart.description63}}</p>
+          <p style="text-align:  left;">{{ walmart.description63}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category64 }}</h5>
-          <p style="text-align: center;">{{ walmart.description64}}</p>
+          <p style="text-align:  left;">{{ walmart.description64}}</p>
         </div>
         {% endfor %}
         {% for walmart in data %}
         <div class="content-container" style="margin-bottom: 20px;">
           <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category65}}</h5>
-          <p style="text-align: center;">{{ walmart.description65}}</p>
+          <p style="text-align: left;">{{ walmart.description65}}</p>
         </div>
         {% endfor %}
         </div>
@@ -640,31 +644,31 @@
             {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category71 }}</h5>
-            <p style="text-align: center;">{{ walmart.description71}}</p>
+            <p style="text-align:  left;">{{ walmart.description71}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category72}}</h5>
-            <p style="text-align: center;">{{ walmart.description72}}</p>
+            <p style="text-align:  left;">{{ walmart.description72}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category73}}</h5>
-            <p style="text-align: center;">{{ walmart.description73}}</p>
+            <p style="text-align:  left;">{{ walmart.description73}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category74 }}</h5>
-            <p style="text-align: center;">{{ walmart.description74}}</p>
+            <p style="text-align:  left;">{{ walmart.description74}}</p>
           </div>
           {% endfor %}
           {% for walmart in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category75}}</h5>
-            <p style="text-align: center;">{{ walmart.description75}}</p>
+            <p style="text-align:  left;">{{ walmart.description75}}</p>
           </div>
           {% endfor %}
           </div>
@@ -684,7 +688,7 @@
       </ul>
     </section>
   
-    <section id="work" class="tm-section-pad-top">
+    <section id="evolution" class="tm-section-pad-top">
       <div class="container tm-container-gallery">
         <div class="row">
           <div class="text-center col-12">

@@ -36,7 +36,6 @@
   <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="static/vendor/aos/aos.css" rel="stylesheet">
   <style>
-    
     .section-title {
       color: rgb(199, 71, 71);
       font-weight: bold;
@@ -214,6 +213,7 @@
         text-align: center;
       }
   
+   
   </style>
 
   <!--
@@ -237,6 +237,7 @@
   <a href="#env">Culture</a>
   <a href="#news">Updates</a>
   <a href="#contact">contact</a>
+  <a href="#evolution">Evolution of logo</a>
 </div>
 
 <div class="container">
@@ -264,37 +265,37 @@
     <div class="container">
 
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Introduction</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Introduction</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
         <div>
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.attribute1 }}</h5>
-            <p style="text-align: center;">{{ ibm.description1}}</p>
+            <p style="text-align: adjust;">{{ ibm.description1}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.attribute2 }}</h5>
-            <p style="text-align: center;">{{ ibm.description2}}</p>
+            <p style="text-align: adjust;">{{ ibm.description2}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.attribute3 }}</h5>
-            <p style="text-align: center;">{{ ibm.description3}}</p>
+            <p style="text-align: adjust;">{{ ibm.description3}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.attribute4 }}</h5>
-            <p style="text-align: center;">{{ ibm.description4}}</p>
+            <p style="text-align: adjust;">{{ ibm.description4}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.attribute5 }}</h5>
-            <p style="text-align: center;">{{ ibm.description5}}</p>
+            <p style="text-align: adjust;">{{ ibm.description5}}</p>
           </div>
           {% endfor %}
         </div>
@@ -307,7 +308,7 @@
   <section id="Mission" class="tm-section-pad-top">
     <div class="container">
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Mission and Vision</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Mission and Vision</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
         <div>
           {% for ibm in data %}
@@ -327,7 +328,7 @@
   <section id="location" class="tm-section-pad-top">
     <div class="container">
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Location of Headquarters</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Location of Headquarters</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
         <div>
           <div class="content-container">
@@ -353,37 +354,37 @@
   <section id="global" class="tm-section-pad-top">
     <div class="container">
       <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179,73,73)"><b>Global presence</b></h2></center>
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179,73,73)"><b>Global presence</b></h2></adjust>
         <p class="mb-4 tm-intro-text">
           <div>
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.region1 }}</h5>
-              <p style="text-align: center;">{{ ibm.locations1}}</p>
+              <p style="text-align: adjust;">{{ ibm.locations1}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.region2 }}</h5>
-              <p style="text-align: center;">{{ ibm.locations2}}</p>
+              <p style="text-align: adjust;">{{ ibm.locations2}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.region3 }}</h5>
-              <p style="text-align: center;">{{ ibm.locations3}}</p>
+              <p style="text-align: adjust;">{{ ibm.locations3}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.region4 }}</h5>
-              <p style="text-align: center;">{{ ibm.locations4}}</p>
+              <p style="text-align: adjust;">{{ ibm.locations4}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.region5 }}</h5>
-              <p style="text-align: center;">{{ ibm.locations5}}</p>
+              <p style="text-align: adjust;">{{ ibm.locations5}}</p>
             </div>
             {% endfor %}
           </div>
@@ -394,8 +395,8 @@
     
   </section>
   <section id="pands" class="tm-section-pad-top">
-    <div>
-        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;"><b>Products and services:</b></h2></center>
+    <div class="container">
+        <adjust><h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;"><b>Products and services:</b></h2></adjust>
         <div style="line-height: 1.6; color: #333; margin-bottom: 20px;">
           This showcases IBM's extensive portfolio of products and services aimed at businesses, developers, educational institutions, and various industries, highlighting their focus on AI, cloud computing, data analytics, and enterprise solutions.
 
@@ -410,13 +411,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name1 }}</h5>
-              <p style="text-align: center;">{{ ibm.descriptions1}}</p>
+              <p style="text-align: adjust;">{{ ibm.descriptions1}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name2 }}</h5>
-              <p style="text-align: center;">{{ ibm.descriptions2}}</p>
+              <p style="text-align: adjust;">{{ ibm.descriptions2}}</p>
             </div>
             {% endfor %}
         </div>
@@ -427,13 +428,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name3 }}</h5>
-              <p style="text-align: center;">{{ ibm.description3}}</p>
+              <p style="text-align: adjust;">{{ ibm.description3}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name4 }}</h5>
-              <p style="text-align: center;">{{ ibm.description4}}</p>
+              <p style="text-align: adjust;">{{ ibm.description4}}</p>
             </div>
             {% endfor %}
         </div>
@@ -443,13 +444,13 @@
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name4 }}</h5>
-            <p style="text-align: center;">{{ ibm.description4}}</p>
+            <p style="text-align: adjust;">{{ ibm.description4}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name5}}</h5>
-            <p style="text-align: center;">{{ ibm.description5}}</p>
+            <p style="text-align: adjust;">{{ ibm.description5}}</p>
           </div>
           {% endfor %}
       </div>
@@ -460,13 +461,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name6 }}</h5>
-              <p style="text-align: center;">{{ ibm.description6}}</p>
+              <p style="text-align: adjust;">{{ ibm.description6}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name7}}</h5>
-              <p style="text-align: center;">{{ ibm.description7}}</p>
+              <p style="text-align: adjust;">{{ ibm.description7}}</p>
             </div>
             {% endfor %}
         </div>
@@ -477,13 +478,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name8}}</h5>
-              <p style="text-align: center;">{{ ibm.description8}}</p>
+              <p style="text-align: adjust;">{{ ibm.description8}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name9}}</h5>
-              <p style="text-align: center;">{{ ibm.description9}}</p>
+              <p style="text-align: adjust;">{{ ibm.description9}}</p>
             </div>
             {% endfor %}
         </div>
@@ -494,13 +495,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name11}}</h5>
-              <p style="text-align: center;">{{ ibm.description11}}</p>
+              <p style="text-align: adjust;">{{ ibm.description11}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name12}}</h5>
-              <p style="text-align: center;">{{ ibm.description12}}</p>
+              <p style="text-align: adjust;">{{ ibm.description12}}</p>
             </div>
             {% endfor %}
         </div>
@@ -511,13 +512,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name11}}</h5>
-              <p style="text-align: center;">{{ ibm.description11}}</p>
+              <p style="text-align: adjust;">{{ ibm.description11}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name12}}</h5>
-              <p style="text-align: center;">{{ ibm.description12}}</p>
+              <p style="text-align: adjust;">{{ ibm.description12}}</p>
             </div>
             {% endfor %}
         </div>
@@ -529,13 +530,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name13}}</h5>
-              <p style="text-align: center;">{{ ibm.description13}}</p>
+              <p style="text-align: adjust;">{{ ibm.description13}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name14}}</h5>
-              <p style="text-align: center;">{{ ibm.description14}}</p>
+              <p style="text-align: adjust;">{{ ibm.description14}}</p>
             </div>
             {% endfor %}
         </div>
@@ -548,13 +549,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name15}}</h5>
-              <p style="text-align: center;">{{ ibm.description15}}</p>
+              <p style="text-align: adjust;">{{ ibm.description15}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name16}}</h5>
-              <p style="text-align: center;">{{ ibm.description16}}</p>
+              <p style="text-align: adjust;">{{ ibm.description16}}</p>
             </div>
             {% endfor %}
         </div>
@@ -566,13 +567,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name17}}</h5>
-              <p style="text-align: center;">{{ ibm.description17}}</p>
+              <p style="text-align: adjust;">{{ ibm.description17}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name18}}</h5>
-              <p style="text-align: center;">{{ ibm.description18}}</p>
+              <p style="text-align: adjust;">{{ ibm.description18}}</p>
             </div>
             {% endfor %}
         </div>
@@ -585,13 +586,13 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name19}}</h5>
-              <p style="text-align: center;">{{ ibm.description19}}</p>
+              <p style="text-align: adjust;">{{ ibm.description19}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.name20}}</h5>
-              <p style="text-align: center;">{{ ibm.description20}}</p>
+              <p style="text-align: adjust;">{{ ibm.description20}}</p>
             </div>
             {% endfor %}
         </div>
@@ -603,55 +604,55 @@
   <section id="innovations" class="tm-section-pad-top">
       <div class="container">
     
-        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: center;"><b>Innovations:</b></h2>
+        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: adjust;"><b>Innovations:</b></h2>
     
         <div>
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology1 }}</h5>
-            <p style="text-align: center;">{{ ibm.descripti1}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti1}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology2}}</h5>
-            <p style="text-align: center;">{{ ibm.descripti2}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti2}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology3 }}</h5>
-            <p style="text-align: center;">{{ ibm.descripti3}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti3}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology4 }}</h5>
-            <p style="text-align: center;">{{ ibm.descripti4}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti4}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology5 }}</h5>
-            <p style="text-align: center;">{{ ibm.descripti5}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti5}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology6 }}</h5>
-            <p style="text-align: center;">{{ ibm.descripti6}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti6}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology7 }}</h5>
-            <p style="text-align: center;">{{ ibm.descripti7}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti7}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.technology8 }}</h5>
-            <p style="text-align: center;">{{ ibm.descripti8}}</p>
+            <p style="text-align: adjust;">{{ ibm.descripti8}}</p>
           </div>
           {% endfor %}
           
@@ -670,25 +671,25 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category41 }}</h5>
-              <p style="text-align: center;">{{ ibm.description41}}</p>
+              <p style="text-align: adjust;">{{ ibm.description41}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category42}}</h5>
-              <p style="text-align: center;">{{ ibm.description42}}</p>
+              <p style="text-align: adjust;">{{ ibm.description42}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category43 }}</h5>
-              <p style="text-align: center;">{{ ibm.description43}}</p>
+              <p style="text-align: adjust;">{{ ibm.description43}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category44 }}</h5>
-              <p style="text-align: center;">{{ ibm.description44}}</p>
+              <p style="text-align: adjust;">{{ ibm.description44}}</p>
             </div>
             {% endfor %}
             
@@ -699,25 +700,25 @@
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category71 }}</h5>
-            <p style="text-align: center;">{{ ibm.description71}}</p>
+            <p style="text-align: adjust;">{{ ibm.description71}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category72}}</h5>
-            <p style="text-align: center;">{{ ibm.description72}}</p>
+            <p style="text-align: adjust;">{{ ibm.description72}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category73 }}</h5>
-            <p style="text-align: center;">{{ ibm.description73}}</p>
+            <p style="text-align: adjust;">{{ ibm.description73}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category74 }}</h5>
-            <p style="text-align: center;">{{ ibm.description74}}</p>
+            <p style="text-align: adjust;">{{ ibm.description74}}</p>
           </div>
           {% endfor %}
           
@@ -729,31 +730,31 @@
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category81 }}</h5>
-            <p style="text-align: center;">{{ ibm.description81}}</p>
+            <p style="text-align: adjust;">{{ ibm.description81}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category82}}</h5>
-            <p style="text-align: center;">{{ ibm.description82}}</p>
+            <p style="text-align: adjust;">{{ ibm.description82}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category83 }}</h5>
-            <p style="text-align: center;">{{ ibm.description83}}</p>
+            <p style="text-align: adjust;">{{ ibm.description83}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category84 }}</h5>
-            <p style="text-align: center;">{{ ibm.description84}}</p>
+            <p style="text-align: adjust;">{{ ibm.description84}}</p>
           </div>
           {% endfor %}
           {% for ibm in data %}
           <div class="content-container" style="margin-bottom: 20px;">
             <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category85}}</h5>
-            <p style="text-align: center;">{{ ibm.description85}}</p>
+            <p style="text-align: adjust;">{{ ibm.description85}}</p>
           </div>
           {% endfor %}
           
@@ -775,39 +776,39 @@
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category21 }}</h5>
-              <p style="text-align: center;">{{ ibm.description21}}</p>
+              <p style="text-align: adjust;">{{ ibm.description21}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category22}}</h5>
-              <p style="text-align: center;">{{ ibm.description22}}</p>
+              <p style="text-align: adjust;">{{ ibm.description22}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category23 }}</h5>
-              <p style="text-align: center;">{{ ibm.description23}}</p>
+              <p style="text-align: adjust;">{{ ibm.description23}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category24 }}</h5>
-              <p style="text-align: center;">{{ ibm.description24}}</p>
+              <p style="text-align: adjust;">{{ ibm.description24}}</p>
             </div>
             {% endfor %}
             {% for ibm in data %}
             <div class="content-container" style="margin-bottom: 20px;">
               <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ ibm.category25 }}</h5>
-              <p style="text-align: center;">{{ ibm.description25}}</p>
+              <p style="text-align: adjust;">{{ ibm.description25}}</p>
             </div>
             {% endfor %}
           </div>
     
       </div>
     </section>
-    <section id="contact" class="text-center">
-      <h1>IBM Social Media Links</h1>
+    <section id="contact" class="text-adjust">
+      <center><h1>IBM Social Media Links</h1></center>
       <ul class="social-media-links">
         <li><a href="https://www.instagram.com/ibm/" target="_blank"><i class="bi bi-instagram"></i></a></li>
         <li><a href="https://www.facebook.com/ibm" target="_blank"><i class="bi bi-facebook"></i></a></li>
@@ -817,10 +818,10 @@
       </ul>
     </section>
   
-    <section id="work" class="tm-section-pad-top">
+    <section id="evolution" class="tm-section-pad-top">
       <div class="container tm-container-gallery">
         <div class="row">
-          <div class="text-center col-12">
+          <div class="text-adjust col-12">
             <h2 style="color:rgb(179, 73, 73)">Evolution of IBM Logo</h2>
             <p style="color: rgb(26, 25, 25); font-size: 18px; font-family: 'Trebuchet MS', sans-serif;">
               "Over the course of 37 years, Microsoft has had five corporate logos. They changed quickly in the early years, but then the company held steady from 1987 until -- today. Ahead of a big wave of major product rollouts this fall, including Windows 8, Windows Phone 8, the Surface tablet, and the next version of Office, Microsoft has updated its logo once again, after 25 years of holding steady."
@@ -907,7 +908,7 @@
     function setParallaxPosition($doc, multiplier, $object) {
       var offset = getOffSet();
       var from_top = $doc.scrollTop(),
-        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+        bg_css = 'adjust ' + (multiplier * from_top - offset) + 'px';
       $object.css({ "background-position": bg_css });
     }
 
@@ -938,7 +939,7 @@
           pos = $(window).scrollTop(),
           yPos = Math.round((multiplier * (firstTop - pos)) - 186);
 
-        var bg_css = 'center ' + yPos + 'px';
+        var bg_css = 'adjust ' + yPos + 'px';
 
         $object.css({ "background-position": bg_css });
       });
